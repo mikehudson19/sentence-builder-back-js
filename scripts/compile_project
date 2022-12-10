@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/sentence_api
+cd /home/ec2-user/sentece_api
 sudo npm install
