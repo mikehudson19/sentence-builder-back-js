@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /home/ec2-user
-    destination: /home/ec2-user/sentence_api
+  - source: /
+    destination: /sentence_api
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
