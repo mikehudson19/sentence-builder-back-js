@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo systemctl enable sentence_api.service
+sudo systemctl start sentence_api.service
