@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo systemctl enable sentece_api.service
 sudo systemctl start sentece_api.service
