@@ -8,10 +8,10 @@ hooks:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-  AfterInstall:
-    - location: scripts/compile_project
+    - location: scripts/start_server
       timeout: 300
       runas: root
-    - location: scripts/start_server
+  AfterInstall:
+    - location: scripts/compile_project
       timeout: 300
       runas: root
