@@ -2,5 +2,5 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /folder
+    destination: /home/ec2-user/folder
 
